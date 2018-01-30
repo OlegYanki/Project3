@@ -1,0 +1,8 @@
+@media (min-width: 899px){
+	.navbar-expand-md {
+	    -ms-flex-flow: row nowrap !important;
+	    flex-flow: row nowrap !important;
+	    -ms-flex-pack: start !important;
+	    justify-content: flex-start !important;
+	}	
+}

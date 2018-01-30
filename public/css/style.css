@@ -1,0 +1,257 @@
+/*Header Begin*/
+/*============== for accordeon in Rest===================*/
+.accordion{
+    list-style-type: none;
+    border-top:1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: 0.5rem 0 1rem 0;
+    padding-left:0;
+    
+}
+.header-main{
+    color: white;
+    background-color: #0077aa;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+
+}
+.body-main{
+    display: none;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.body-minor{
+    display: none;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.header-minor{
+    background-color: #0077aa;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+
+.forjson{
+    /*height: 90%;*/
+    border: 1px solid #ddd;
+    min-height: 100px;
+}
+
+/*======================================================*/
+body, html {
+    font-family: "MyriadPro", serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebea;
+    min-height: 100%;
+    min-width: 320px;
+    width: 100%;
+    /*height: auto;*/
+    height: 100%;
+    border: 0 none;
+    box-sizing: border-box;
+}
+/*  FOR COOL FOOTER START  */
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -82px;
+}
+* html .page-wrapper {
+    height: 100%;
+}
+.page-buffer {
+    height: 82px;
+}
+/*  FOR COOL FOOTER END  */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.333em;
+    font-weight: 400;
+    margin: 1.1em 0 .7em;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+.logo{
+	width: 207px;
+}
+.navbar-light .navbar-brand{
+	width: 214px;
+}
+.nav-link{
+    font-family: "MyriadPro", serif;
+	font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+header{
+	border-bottom: 2px solid #4b75a4;
+}
+.nav-link:hover{
+	color: #003399 !important;
+}
+/*Header End*/
+.nav-link{
+	color: black !important;
+}
+
+/*  *****    FOOTER BEGIN   *****  */
+
+footer {
+    border-top: 2px solid #4b75a4;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #003399;
+    text-decoration:none
+}
+
+footer a:hover {
+    color:#339900;
+    text-decoration:none
+}
+
+footer li {
+    margin: 7px;
+}
+
+#footerLinks {
+    margin-top: 20px;
+    margin-left: 16px;
+}
+#footerLogo {
+    margin-top: 18px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+#footerLogoSm {
+    width: 65px;
+    margin: 15px;
+}
+
+/*  *****    FOOTER END   *****  */
+
+/*  *****    API-Client BEGIN   *****  */
+.functionApi{
+    color: red;
+    font-style: italic;
+    font-family:  "Noto Sans CJK JP Bold", serif;
+}
+.functionApiBorder{
+    background: #221f2e;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+
+
+}
+.fun-blue{
+    color: #11eadb;
+    font-style: italic;
+}
+.fun-red{
+    color: red;
+    font-style: italic;
+}
+
+.fun-yel{
+    color: yellow;
+    font-style: italic;
+
+}
+a.buttonTryApi {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    float: right;
+    margin-top: -20px;
+}
+a.buttonTryApi:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.buttonTryApi:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+/*  *****    API-Client END   *****  */
+
+/*dropdown style*/
+.dropdown-menu{
+    margin-top: 0;
+}
+
+
+/*  *****    API-Client TEST   *****  */
+pre {
+   background-color: mintcream;
+   border: 1px solid silver;
+   padding: 10px 20px;
+   max-height: 600px;
+   overflow-y: auto;
+   overflow-x: hidden;
+   }
+.json-key {
+   color: brown;
+   }
+.json-value {
+   color: navy;
+   }
+.json-string {
+   color: olive;
+   }
+#requestJsonModal{
+	display: none;
+}
+
+#modContent{
+	width: 600px;
+}
+
+#backmodal{
+	position:absolute;
+	left: 15px;
+}
+
+/*  *****    API-Client TEST   *****  */
+
+
+
+
+
+
